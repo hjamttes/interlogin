@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "contestant" && password === "qual") {
+    if (username === "inter" && password === "stellar") {
         alert("You have successfully logged in.");
         window.location.replace("https://support.tos.anatoll.org")
     } else {
