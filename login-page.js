@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "inter" || "matteson" && password === "stellar" || "01132011") {
         alert("You have successfully logged in.");
-        window.location.replace("https://support.tos.anatoll.org")
+        window.location.replace("/interpass-home.html")
     } else {
         loginErrorMsg.style.opacity = 1;
     }
