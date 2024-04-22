@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "contestant" && password === "qual") {
         alert("You have successfully logged in.");
-        window.location.replace("https://neon-tower-tounament.harlenmtcsw.repl.co/neon.html")
+        window.location.replace("https://support.tos.anatoll.org")
     } else {
         loginErrorMsg.style.opacity = 1;
     }
