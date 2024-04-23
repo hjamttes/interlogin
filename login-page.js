@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "inter" || "matteson" && password === "stellar" || "01132011") {
+    if (username === "inter" || "matteson" || "dillon" && password === "stellar" || "01132011" || "dillon") {
         alert("You have successfully logged in.");
         window.location.replace("/interpass-home.html")
     } else {
